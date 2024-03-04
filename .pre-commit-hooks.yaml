@@ -1,0 +1,7 @@
+---
+- id: vcpkg-format
+  name: Format vcpkg.json
+  description: Formats vcpkg.json files
+  entry: ./vcpkg-format.py
+  language: script
+  files: .*vcpkg.json
